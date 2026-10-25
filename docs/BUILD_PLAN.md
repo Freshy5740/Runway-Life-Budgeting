@@ -272,6 +272,7 @@ Free users cost nothing to serve because their data never touches our servers. P
 ## 10. Risks & open questions
 
 - **Name:** "Runway" is already used by other companies, including a business financial-planning product. Check trademarks before buying a domain or listing in the app stores; we may need a variant.
+- **Hosting plan:** Vercel's free Hobby plan is for non-commercial use only. Before charging money (M8), move to Vercel Pro (~$20/mo) or a host whose free tier allows commercial use, such as Cloudflare Pages.
 - **Tax tables** change every year, so update them each January.
 - **Federal loan rules** are still changing (section 6).
 - **Sync conflicts** (two devices editing the same record): the latest edit wins, decided by `updatedAt`.
