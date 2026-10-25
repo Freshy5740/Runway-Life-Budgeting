@@ -2,7 +2,7 @@
 
 _Last updated 2026-10-25. This plan will change as we go, so update it when a decision changes._
 
-**Status:** M0 done. M1 built and verified locally (not yet published). Live at https://runway-life-budgeting.vercel.app; code on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public).
+**Status:** M0 and M1 done; v0.1 is live at https://runway-life-budgeting.vercel.app. Code on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public). Next: M2.
 
 ## 1. The product
 
@@ -138,7 +138,7 @@ Each milestone ends with something live that people can use.
 - [x] Tabs: Tarmac, Flight Plan, Baggage Claim, Sky Miles.
 - [x] Export/import, including old prototype backups (Backup menu).
 - [x] "Not financial advice" notice, plus a one-page privacy statement (`#/privacy`).
-- [ ] Publish (push to GitHub → Vercel).
+- [x] Publish (push to GitHub → Vercel), 2026-10-25.
 
 **Done when:** everything the prototype does works in the new app, saved on the device, at a public URL. **This is the working version anyone can use.**
 
