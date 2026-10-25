@@ -1,8 +1,8 @@
 # Runway — Build Plan
 
-_Last updated 2026-10-24. This plan will change as we go, so update it when a decision changes._
+_Last updated 2026-10-25. This plan will change as we go, so update it when a decision changes._
 
-**Status:** M0 done. Live at https://runway-life-budgeting.vercel.app; code on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public). Next: M1.
+**Status:** M0 done. M1 built and verified locally (not yet published). Live at https://runway-life-budgeting.vercel.app; code on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public).
 
 ## 1. The product
 
@@ -133,13 +133,18 @@ Each milestone ends with something live that people can use.
 
 ### M1 — Taxi parity (port the prototype) → **v0.1 public**
 
-- Design system: the prototype's colors as named variables, plus dark mode. Designed for phones first.
-- Engines rewritten in TypeScript with tests, using the prototype's own results as the expected answers: period budget, in-school interest and capitalization, avalanche/snowball/minimum payoff.
-- Tabs: Tarmac, Flight Plan, Baggage Claim, Sky Miles.
-- Export/import, including old prototype backups.
-- "Not financial advice" notice, plus a one-page privacy statement ("your data never leaves your device").
+- [x] Design system: the prototype's colors as named variables, plus dark mode. Designed for phones first (bottom tab bar under 860px wide).
+- [x] Engines rewritten in TypeScript with tests, using the prototype's own results as the expected answers: period budget, in-school interest and capitalization, avalanche/snowball/minimum payoff. `scripts/prototype-oracle.mjs` runs the prototype's original code to produce those answers.
+- [x] Tabs: Tarmac, Flight Plan, Baggage Claim, Sky Miles.
+- [x] Export/import, including old prototype backups (Backup menu).
+- [x] "Not financial advice" notice, plus a one-page privacy statement (`#/privacy`).
+- [ ] Publish (push to GitHub → Vercel).
 
 **Done when:** everything the prototype does works in the new app, saved on the device, at a public URL. **This is the working version anyone can use.**
+
+Added beyond the prototype: Undo after every delete or tip, a "new version ready → Reload" banner instead of silent updates, charts you can hover or read as a table, colorblind-checked chart colors, a safety screen if something breaks, and a request that the browser keep Runway's data.
+
+Changed from the prototype: new terms are named by season ("Spring 2027"); the "YTD" view is called "Years" (it always grouped by calendar year); a tip can take an envelope past its target instead of being cut off at it; the tip-jar note now says auto-save *reserves* money from the budget (it doesn't move money by itself yet; see M2).
 
 ### M2 — Transactions & envelopes
 
@@ -147,6 +152,8 @@ Each milestone ends with something live that people can use.
 - Weekly safe-to-spend calculated from real transactions.
 - Subscriptions & bills tracker: recurring charges come out of safe-to-spend automatically, with a "coming up" list.
 - Envelopes: savings for wants that visibly fill up, with tip drops and auto-save. The emergency fund stays its own reserve.
+- Auto-save actually fills envelopes each week (in M1, like the prototype, it only reserves the money in the budget).
+- Edit existing items, loans and envelopes in place (M1, like the prototype, only adds and removes).
 - Monthly snapshots start recording, building history for Altitude and the Logbook.
 
 **Done when:** logging a day's spending takes seconds and Tarmac shows spending by category.

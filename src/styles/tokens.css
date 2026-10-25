@@ -27,6 +27,45 @@
   --glow-a: #fcf4dc;
   --glow-b: #dfe8fc;
 
+  /* Status: means good / bad, never used for a category. */
+  --good: var(--teal);
+  --bad: var(--coral);
+
+  /* Charts. Categorical slots are used in this fixed order (validated for color blindness). */
+  --cat-1: #2a4bd0;
+  --cat-2: #e0a526;
+  --cat-3: #8a63c9;
+  --cat-4: #cf4f8a;
+  --cat-5: #1d9bc0;
+  --chart-grid: #e6ebf6;
+  --chart-muted: #a7b2cc;
+  /* The runway strip behind the weekly cells. */
+  --tarmac: #21304f;
+  --tarmac-line: rgba(255, 255, 255, 0.28);
+
+  /* Text on filled buttons. */
+  --on-accent: #ffffff;
+  --on-gold: #3a2a05;
+
+  /* The top bar and the Tarmac hero banner sit on dark blue in both themes. */
+  --bar-overlay: rgba(255, 255, 255, 0.08);
+  --bar-overlay-strong: rgba(255, 255, 255, 0.16);
+  --hero-a: #16245e;
+  --hero-b: #26408f;
+  --hero-c: #2a4bd0;
+  --hero-ink: #ffffff;
+  --hero-ink-soft: #cdd9f5;
+  --hero-label: #a9c0ff;
+  --hero-bad: #ffb3a3;
+
+  --shadow-pop: 0 1px 2px rgba(21, 34, 74, 0.05), 0 12px 40px rgba(21, 34, 74, 0.18);
+  --shadow-bar: 0 2px 14px rgba(21, 34, 74, 0.18);
+
+  /* Toasts contrast with the page in each theme. */
+  --toast-bg: #15224a;
+  --toast-ink: #ffffff;
+  --toast-action: #f0c14b;
+
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, monospace;
   --r: 14px;
@@ -62,6 +101,23 @@
     --glow-a: #2a2410;
     --glow-b: #16245e;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 26px rgba(0, 0, 0, 0.35);
+    --cat-1: #5f7cf0;
+    --cat-2: #b8871c;
+    --cat-3: #9677da;
+    --cat-4: #d65a95;
+    --cat-5: #2a9cc2;
+    --chart-grid: #26336a;
+    --chart-muted: #56638f;
+    --tarmac: #0a1030;
+    --on-accent: #0b1233;
+    --hero-a: #0b1233;
+    --hero-b: #142266;
+    --hero-c: #1d3590;
+    --shadow-pop: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 40px rgba(0, 0, 0, 0.5);
+    --shadow-bar: 0 2px 14px rgba(0, 0, 0, 0.4);
+    --toast-bg: #e8edff;
+    --toast-ink: #0e1530;
+    --toast-action: #1f3fbf;
 
     color-scheme: dark;
   }
@@ -93,6 +149,23 @@
   --glow-a: #2a2410;
   --glow-b: #16245e;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 26px rgba(0, 0, 0, 0.35);
+  --cat-1: #5f7cf0;
+  --cat-2: #b8871c;
+  --cat-3: #9677da;
+  --cat-4: #d65a95;
+  --cat-5: #2a9cc2;
+  --chart-grid: #26336a;
+  --chart-muted: #56638f;
+  --tarmac: #0a1030;
+  --on-accent: #0b1233;
+  --hero-a: #0b1233;
+  --hero-b: #142266;
+  --hero-c: #1d3590;
+  --shadow-pop: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 40px rgba(0, 0, 0, 0.5);
+  --shadow-bar: 0 2px 14px rgba(0, 0, 0, 0.4);
+  --toast-bg: #e8edff;
+  --toast-ink: #0e1530;
+  --toast-action: #1f3fbf;
 
   color-scheme: dark;
 }
