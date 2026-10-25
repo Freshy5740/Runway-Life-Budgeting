@@ -1,5 +1,7 @@
 # Runway
 
+_Free to everyone budgeting app for students through adulthood, with stupidly named plane theming._
+
 Student money, cleared for takeoff. Runway is a free money app that keeps your data on your device and grows with you: term budgets and loan tracking in college, then your first paycheck and job offer, then long-term goals like a house and retirement.
 
 - Roadmap and decisions: [docs/BUILD_PLAN.md](docs/BUILD_PLAN.md)

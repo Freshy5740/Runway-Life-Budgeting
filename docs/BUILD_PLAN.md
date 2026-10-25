@@ -2,7 +2,7 @@
 
 _Last updated 2026-10-24. This plan will change as we go, so update it when a decision changes._
 
-**Status:** M0 nearly done. The project is set up, verified locally and committed; pushing to GitHub and the Vercel deploy are next.
+**Status:** M0 nearly done. The project is set up, verified locally and on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public). The Vercel deploy is next.
 
 ## 1. The product
 
@@ -126,7 +126,7 @@ Each milestone ends with something live that people can use.
 - [x] `CLAUDE.md` with project rules, names and design colors; the prototype copied into `reference/` as a guide.
 - [x] Placeholder "Pre-flight check" page that confirms it loads, saves on the device, works offline and can be installed.
 - [x] First Git commit.
-- [ ] Create the GitHub repository and push.
+- [x] Create the GitHub repository ([Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting), public) and push.
 - [ ] Automatic publishing to Vercel.
 
 **Done when:** a placeholder Runway page is live at a public URL and installs to your phone's home screen.
