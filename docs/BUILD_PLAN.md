@@ -2,7 +2,7 @@
 
 _Last updated 2026-10-24. This plan will change as we go, so update it when a decision changes._
 
-**Status:** M0 nearly done. The project is set up, verified locally and on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public). The Vercel deploy is next.
+**Status:** M0 done. Live at https://runway-life-budgeting.vercel.app; code on GitHub at [Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting) (public). Next: M1.
 
 ## 1. The product
 
@@ -120,14 +120,14 @@ Each milestone ends with something live that people can use.
 
 - [x] Install Node.js (LTS) and Git.
 - [x] Create a GitHub account _(you)_: `Freshy5740`, committing with the private noreply email.
-- [ ] Create a Vercel account _(you)_.
+- [x] Create a Vercel account _(you)_.
 - [x] Create the code folder **outside OneDrive**: `C:\Users\Freshy\dev\runway`. A JavaScript project installs tens of thousands of small files and OneDrive syncs them badly. GitHub becomes the backup instead.
 - [x] Set up the project: Vite + React + TypeScript, installable-app (PWA) plugin, Dexie, Vitest, oxlint and Prettier.
 - [x] `CLAUDE.md` with project rules, names and design colors; the prototype copied into `reference/` as a guide.
 - [x] Placeholder "Pre-flight check" page that confirms it loads, saves on the device, works offline and can be installed.
 - [x] First Git commit.
 - [x] Create the GitHub repository ([Freshy5740/Runway-Life-Budgeting](https://github.com/Freshy5740/Runway-Life-Budgeting), public) and push.
-- [ ] Automatic publishing to Vercel.
+- [x] Automatic publishing to Vercel: every push to `main` redeploys https://runway-life-budgeting.vercel.app.
 
 **Done when:** a placeholder Runway page is live at a public URL and installs to your phone's home screen.
 

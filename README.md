@@ -4,6 +4,7 @@ _Free to everyone budgeting app for students through adulthood, with stupidly na
 
 Student money, cleared for takeoff. Runway is a free money app that keeps your data on your device and grows with you: term budgets and loan tracking in college, then your first paycheck and job offer, then long-term goals like a house and retirement.
 
+- Live app: https://runway-life-budgeting.vercel.app
 - Roadmap and decisions: [docs/BUILD_PLAN.md](docs/BUILD_PLAN.md)
 - Working notes for contributors (and Claude): [CLAUDE.md](CLAUDE.md)
 - Original prototype: [reference/runway-budget-v2.html](reference/runway-budget-v2.html)

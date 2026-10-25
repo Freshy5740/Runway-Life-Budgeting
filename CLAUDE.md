@@ -6,7 +6,7 @@ Runway is a money app for college students that graduates with them: Taxi (colle
 
 ## Status
 
-- M0 (setup): project scaffolded, builds, installs as an app, works offline, on GitHub at https://github.com/Freshy5740/Runway-Life-Budgeting (public). Still to do: the Vercel deploy (waiting on the owner's Vercel account).
+- M0 (setup) done. Live at https://runway-life-budgeting.vercel.app (Vercel Hobby plan; every push to `main` redeploys). Code: https://github.com/Freshy5740/Runway-Life-Budgeting (public).
 - Git identity for this repo is the owner's GitHub account `Freshy5740` with its noreply email. Never commit with a personal email.
 - Next: M1, rebuilding the prototype (`reference/runway-budget-v2.html`) on this stack.
 
