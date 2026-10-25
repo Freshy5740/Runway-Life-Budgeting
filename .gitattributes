@@ -1,0 +1,4 @@
+# Keep LF line endings on every OS so Prettier and Git agree.
+* text=auto eol=lf
+*.png binary
+*.ico binary

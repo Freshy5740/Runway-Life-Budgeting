@@ -1,0 +1,80 @@
+.checks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 12px;
+  margin-bottom: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.check-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.check-dot.ok {
+  background: var(--teal);
+}
+
+.check-dot.waiting {
+  background: var(--gold);
+}
+
+.check-dot.fail {
+  background: var(--coral);
+}
+
+.check-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.check-label {
+  font-weight: 650;
+}
+
+.check-detail {
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.check-status {
+  flex: none;
+  padding: 2px 9px;
+  border-radius: 20px;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.check-status.ok {
+  background: var(--teal-pale);
+  color: var(--teal-deep);
+}
+
+.check-status.waiting {
+  background: var(--gold-pale);
+  color: var(--gold-deep);
+}
+
+.check-status.fail {
+  background: var(--coral-pale);
+  color: var(--coral-deep);
+}
+
+.install {
+  margin-top: 6px;
+}

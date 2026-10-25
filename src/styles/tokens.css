@@ -1,0 +1,98 @@
+/* Runway design tokens. Use these variables for every color; never hard-code one in a component. */
+:root {
+  --royal: #2a4bd0;
+  --royal-deep: #16245e;
+  --royal-pale: #e7ecfc;
+  --gold: #e0a526;
+  --gold-deep: #a9760f;
+  --gold-pale: #faf0d2;
+  --teal: #2c9d8a;
+  --teal-deep: #1f7d6e;
+  --teal-pale: #d9f1ec;
+  --coral: #e0664a;
+  --coral-deep: #b8472e;
+  --coral-pale: #fbe1d9;
+  --plum: #8a63c9;
+  --plum-pale: #ece3f8;
+
+  --sky: #eaf0fb;
+  --surface: #ffffff;
+  --surface-2: #f5f8fe;
+  --ink: #15224a;
+  --ink-soft: #5d6b8a;
+  --line: #dde4f4;
+  --bar: var(--royal-deep);
+  --bar-ink: #eaf0ff;
+  --bar-ink-soft: #9fb0e0;
+  --glow-a: #fcf4dc;
+  --glow-b: #dfe8fc;
+
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, monospace;
+  --r: 14px;
+  --shadow: 0 1px 2px rgba(21, 34, 74, 0.05), 0 8px 26px rgba(21, 34, 74, 0.06);
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --royal: #7b95ff;
+    --royal-deep: #0b1233;
+    --royal-pale: #1e2a5c;
+    --gold: #f0b93a;
+    --gold-deep: #f5c75a;
+    --gold-pale: #3a2f12;
+    --teal: #3fbfa9;
+    --teal-deep: #6fd6c4;
+    --teal-pale: #123a35;
+    --coral: #f07f66;
+    --coral-deep: #ff9f8a;
+    --coral-pale: #3d1f18;
+    --plum: #a888e0;
+    --plum-pale: #2c2244;
+
+    --sky: #0e1530;
+    --surface: #151e42;
+    --surface-2: #1a2550;
+    --ink: #e8edff;
+    --ink-soft: #9fb0e0;
+    --line: #26336a;
+    --bar: #0b1233;
+    --glow-a: #2a2410;
+    --glow-b: #16245e;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 26px rgba(0, 0, 0, 0.35);
+
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --royal: #7b95ff;
+  --royal-deep: #0b1233;
+  --royal-pale: #1e2a5c;
+  --gold: #f0b93a;
+  --gold-deep: #f5c75a;
+  --gold-pale: #3a2f12;
+  --teal: #3fbfa9;
+  --teal-deep: #6fd6c4;
+  --teal-pale: #123a35;
+  --coral: #f07f66;
+  --coral-deep: #ff9f8a;
+  --coral-pale: #3d1f18;
+  --plum: #a888e0;
+  --plum-pale: #2c2244;
+
+  --sky: #0e1530;
+  --surface: #151e42;
+  --surface-2: #1a2550;
+  --ink: #e8edff;
+  --ink-soft: #9fb0e0;
+  --line: #26336a;
+  --bar: #0b1233;
+  --glow-a: #2a2410;
+  --glow-b: #16245e;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 26px rgba(0, 0, 0, 0.35);
+
+  color-scheme: dark;
+}
